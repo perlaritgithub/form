@@ -1,0 +1,166 @@
+.c1 ,.c2{
+   position:relative;
+   left:50px;
+   bottom:80px;
+}
+.c2{
+    position:relative;
+    bottom:100px;
+    
+}
+.c1{
+    color:palevioletred;
+}
+body{
+    background-color: brown;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body,li,ul,a{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.home1{
+    position: relative;
+    right:5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto 10px;
+    margin-right: auto 40px;
+    width: 100%;
+  }
+  body,.paragraph, img{
+      display:flex;
+     text-align: left;
+      
+      
+      
+  }
+  button{
+     color: blue;
+     background-color:orangered ;
+  }
+  .h1{
+      position: relative;
+      top:800px;
+    float:right;
+    right:70px;
+    background-color: orange;
+  }
+  .p_1{
+    position: relative;
+    top:900px;
+ 
+    left:1080px;
+  
+  
+  
+  }
+ body, .header_2{
+  display:flex;
+  }
+  .weild{
+      position:relative;
+      top:150px;
+  }
+  .campus1{
+      position: relative;
+      top:50px;
+  }
+  .cs_1{
+    position: relative;
+    top:150px;
+  }
+  .par_1{
+    position: relative;
+    top:10px;
+    background-color: wheat;
+  }
+  .par_3{
+    position: relative;
+    top:50px;
+    bottom:20px;
+    background-color: wheat;
+
+  }
+  .university{
+    position: relative;
+    top:10px;
+
+  }
+  .campus1{
+    position: relative;
+    bottom:10px;
+
+  }
+  button:hover{
+      background-color: green;
+  }
+  a:hover{
+      color:orange;
+  }
+  .search-container {
+    float: right;
+    position:relative;
+    bottom:180px;
+    right:100px;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+   
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  .p_1{
+      background-color: bisque;
+      width:30%;
+  }
+  body, .div1{
+      display:flex;
+      justify-content: space-around;
+      color:blue;
+  }
+  .div1{
+      position: relative;
+      left:90px;
+      bottom:150px;
+  }
+  .h{
+    position: relative;
+    left:250px; 
+    
+  }
+  .b{
+    position: relative;
+    left:450px; 
+  }
+  .d{
+    position: relative;
+    left:650px; 
+  }
+  .c{
+    position: relative;
+    left:850px; 
+  }
+  .h:hover{
+    color:orange;
+  }
+  .b:hover{
+    color:orange;
+  }
+  .d:hover{
+    color:orange;
+  }
+  .c:hover{
+    color:orange;
+  }
