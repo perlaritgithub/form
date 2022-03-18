@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <h1 class="account">Create Account</h1>
+        <form action="/action_page.php">
+            <label for="fname" class="first">First name</label><br>
+            <input type="text" id="fname" name="fname" class="fname" placeholder="enter your first name" required><br><br>
+            <label for="lname" class="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname" placeholder="enter your last name" required ><br><br>
+            <label for="ename" class="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="enter your email" required ><br><br>
+            <label for="pswd" class="pswd">Password</label><br>
+            <input type="text" id="pswd" name="pswd" placeholder="enter your password" required ><br><br>
+            <label for="cpswd" class="cpswd">Confirm Password</label><br>
+            <input type="text" id="cpswd" name="cpswd" placeholder="enter your confirm password" required ><br><br>
+            <input type="radio" id="male"  value="Male" class="male">
+            <label for="male" class="male_1">Male</label><br>
+            <input type="radio" id="Female"  value="Female">
+            <label for="female" class="female">Female</label><br><br>
+            <input type="checkbox" id="music" value="music">
+            <label for="music" class="music"> music</label><br>
+            <input type="checkbox" id="sports" value="sports">
+            <label for="sports"> sports</label><br>
+            <input type="checkbox" id="travels" value="travels">
+            <label for="music">travels</label><br>
+            <input type="checkbox" id="movies" value="movies">
+            <label for="movies"> movies</label><br>
+            <label >Source of income</label>
+  <select class="option" >
+   
+    <option value="employed">employed</option>
+    <option value="employed">employed</option>
+    <option value="employed">employed</option>
+    <option value="employed">employed</option>
+  </select><br><br>
+  <label for="vol" class="income">Income</label><br>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+  <button onclick="20">20k</button><br><br>
+  <label for="myfile">Select a file:</label>
+  
+  <input type="file" id="myfile" name="myfile"><br><br><br>
+  <label>Age</label><input type="text"><br><br>
+  
+  <textarea name="message" rows="10" cols="30">Bio</textarea>
+  <br><br>
+  <button onclick="create">create</button>
+
+           
+            
+          </form>
+    </body>
+</html>
